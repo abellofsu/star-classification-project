@@ -426,3 +426,21 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# original datasets
+/asassnvarlc_vband_complete/
+/g_band_lcs/
+
+# original CSVs (root only)
+/*.csv
+
+# compressed downloads (root only)
+/*.zip
+/*.tar.gz
+/*.tgz
+/*.gz
+
+# python junk
+__pycache__/
+*.py[cod]
+.venv/
